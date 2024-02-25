@@ -1,0 +1,48 @@
+.about-banner {
+    position: relative;
+    background-color: #1d3557;
+    overflow: hidden;
+  }
+  
+  .banner-image1 {
+    display: none;
+  }
+  
+  .about-content {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .about-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-media-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .social-media-icons a:last-child {
+    margin-right: 0;
+  }
+  

@@ -1,0 +1,37 @@
+/* SecondNavBar.css */
+
+/* Second Navbar container */
+.second-navbar {
+    background-color: #1d3557;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    padding: 10px 0;
+    color: #f1faee;
+  }
+  
+  /* Second Navigation links */
+  .second-nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Second Navigation link items */
+  .second-nav-links li {
+    margin: 0;
+  }
+  
+  /* Links */
+  .second-nav-links a {
+    text-decoration: none;
+    color: #f1faee;
+    transition: color 0.3s;
+  }
+  
+  /* Hover effect */
+  .second-nav-links a:hover {
+    color: #a8dadc;
+  }
+  

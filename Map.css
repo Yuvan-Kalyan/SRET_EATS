@@ -1,0 +1,56 @@
+/* Map.css */
+
+.map-container {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    text-align: center;
+  }
+  
+  .map-header {
+    font-size: 36px;
+    margin: 20px 0;
+    color: #333; /* Dark gray text color */
+  }
+  
+  .map-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .map-info {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .map-info h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333; /* Dark gray text color */
+  }
+
+  .map-info h3{
+    font-size: 16px;
+    margin: 10px 0;
+    color: black;
+  }
+  
+  .map-info p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333; /* Dark gray text color */
+  }
+  
+  .map-iframe {
+    flex: 2;
+  }
+  
+  .map-iframe iframe {
+    width: 100%;
+    height: 600px;
+    border: none; /* Remove iframe border */
+  }
+  

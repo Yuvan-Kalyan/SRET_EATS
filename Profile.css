@@ -1,0 +1,48 @@
+/* Profile.css */
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Set the background color to white */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    border-radius: 8px; /* Add rounded corners */
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-title {
+    font-size: 24px;
+  }
+  
+  .signout-button {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .profile-table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .profile-table th,
+  .profile-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .profile-table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add more styles as needed */
+  

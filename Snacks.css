@@ -1,0 +1,187 @@
+/* Snacks.css */
+
+.snacks-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.snack-card {
+  background-color: #CCCCFF;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  transition: transform 0.2s ease; /* Add a transition for smooth hover effect */
+}
+
+.snack-card:hover {
+  transform: scale(1.05); /* Scale up the card on hover */
+}
+
+.snack-image {
+  width: 300px;
+  height: 300px;
+}
+
+.snack-type {
+  text-align: center;
+  padding: 5px;
+}
+
+.veg {
+  color: 013220;
+}
+
+.non-veg {
+  color: red;
+}
+
+.snack-details {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: center; /* Center-align buttons */
+  margin-top: 10px;
+}
+
+.add-to-cart,
+.add-to-favorites,
+.another-button {
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 5px; /* Add some space between buttons */
+}
+
+/* Rest of your CSS remains the same */
+
+  
+  .fav-button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+
+
+  .fav-button {
+    --c:  #457b9d; /* the color*/
+    
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+      var(--_g) calc(var(--_p,0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p,0%)) 0%,
+      var(--_g) calc(var(--_p,0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+  }
+  .fav-button:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+  }
+  .fav-button:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+  }
+  
+
+  .fav-button {
+    font-family: system-ui, sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: .1em .6em;
+    font-weight: bold;  
+    border: none;
+  }
+
+
+  .cart-button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+
+
+  .cart-button {
+    --c:  #e63946; /* the color*/
+    
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+      var(--_g) calc(var(--_p,0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p,0%)) 0%,
+      var(--_g) calc(var(--_p,0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+  }
+  .cart-button:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+  }
+  .cart-button:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+  }
+  
+
+  .cart-button {
+    font-family: system-ui, sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: .1em .6em;
+    font-weight: bold;  
+    border: none;
+  }
+
+.PriceName{
+  color: #f1faee;
+}
+
+
+
+.remove1 {
+  --c:  #E62020; /* the color*/
+  
+  box-shadow: 0 0 0 .1em inset var(--c); 
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: 
+    var(--_g) calc(var(--_p,0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p,0%)) 0%,
+    var(--_g) calc(var(--_p,0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p,0%)) 100%;
+  background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .4s, background-position 0s .4s;
+}
+.remove1:hover {
+  --_p: 100%;
+  transition: background-position .4s, background-size 0s;
+}
+.remove1:active {
+  box-shadow: 0 0 9e9q inset #0009; 
+  background-color: var(--c);
+  color: #fff;
+}
+
+
+.remove1 {
+  font-family: system-ui, sans-serif;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: .1em .6em;
+  font-weight: bold;  
+  border: none;
+  padding: 8px 16px;
+  margin-left: 10px;
+}
